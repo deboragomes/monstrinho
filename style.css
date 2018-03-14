@@ -1,0 +1,114 @@
+section{
+	background-color: pink; 
+	width: 100%; 
+	height: 100vh;
+	position: relative;
+	display: flex;
+	justify-content: center;
+
+}
+.monstrinho{
+	background-color:#32CD32;
+	width: 400px;
+	height:400px;
+	position: absolute;
+	border-radius: 100%;
+	top:20px;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+
+}
+.olho{
+	background-color: white;
+	width: 210px;
+	height:210px;
+	position: absolute;
+	border-radius: 100%;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+.iris{
+	background-color:green;
+	width: 100px;
+	height:100px;
+	position: absolute;
+	border-radius: 100px;
+	background-position: center;
+	border: 1px solid;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+div{ display: block; }
+.preto{
+	background-color:black;
+	width: 50px;
+	height:50px;
+	position: absolute;
+	border-radius: 100px;
+	background-position: center;
+	border: 1px solid;
+	text-align: center;
+}
+.boca{
+	width: 65px;
+    height: 65px;
+    background-color: black;
+    border-radius: 100% 50% 100px 50%;
+    position: absolute;
+    z-index: 2;
+    border: 5px solid;
+    top: 260px;
+    left: 65px;
+    transform: rotate(45deg);
+
+}
+.perna1{
+	background-color:#32CD32;
+	width: 20px;
+	height:250px;
+	position: absolute;
+	background-position: center;
+	border-radius: 0 0 0 100px;
+	top: 390px;
+	left: 140px;
+
+}
+.perna2{
+	background-color:#32CD32;
+	width: 20px;
+	height:250px;
+	position: absolute;
+	background-position: center;
+	border-radius: 0 0 0 100px;
+	top: 390px;
+	right: 140px;
+}
+.braco{
+	background-color:#32CD32;
+	width: 20px;
+	height:250px;
+	position: absolute;
+	background-position: center;
+	border-radius: 100px 0 0 0;
+	top: 100px;
+	left: 400px;
+	transform: rotate(150deg);
+}
+.braco2{
+	background-color:#32CD32;
+	width: 20px;
+	height:250px;
+	position: absolute;
+	background-position: center;
+	border-radius: 0 0 0 100px;
+	top: 100px;
+	right: 390px;
+	transform: rotate(150deg);
+}
